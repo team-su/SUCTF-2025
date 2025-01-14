@@ -6,10 +6,11 @@ Official Writeup of SUCTF 2025
 | catalog| Game Name | Writeup Link |
 |----|----|---|
 |misc|SU_Checkin|[./misc/SU_Checkin/writeup](./misc/SU_Checkin/writeup)|
-|misc|SU_sip2|[./misc/SU_sip2/writeup](./misc/SU_sip2/writeup)|
+|misc|SU_VOIP|[./misc/SU_sip2/writeup](./misc/SU_sip2/writeup)|
 |misc|OnChain_Checkin|[./misc/OnChain_Checkin/writeup](./misc/OnChain_Checkin/writeup)|
 |misc|Online_Magician|[./misc/Online_Magician/writeup](./misc/Online_Magician/writeup)|
 |misc|SU_AD|[./misc/SU_AD/writeup](./misc/SU_AD/writeup)|
+|misc|SU_forensics|[./misc/SU_forensics/writeup](./misc/SU_forensics/writeup)|
 |crypto|SU_Poly|[./crypto/SU_Poly/writeup](./crypto/SU_Poly/writeup)|
 |crypto|SU_rsa|[./crypto/SU_rsa/writeup](./crypto/SU_rsa/writeup)|
 |crypto|SU_Auth|[./crypto/SU_Auth/writeup](./crypto/SU_Auth/writeup)|
