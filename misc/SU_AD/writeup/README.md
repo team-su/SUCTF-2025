@@ -8,9 +8,9 @@
 
 https://xz.aliyun.com/t/16378?time\_\_1311\=GuD%3D0KAKBIPGx0Heeu4QuEWDRQT5v6%3DAox
 
-​![](https://kcno7cq8euks.feishu.cn/space/api/box/stream/download/asynccode/?code=ZjBiOTVkY2RiZjRlODE2ZTI3ZjkzYmRkMTJiMDg4OWZfZFRvMmtlZ0F2Q05NVGlFZ0NYTG5rTGFWWGJGcTFaZk5fVG9rZW46V0plMWJnaktYb1l3Nlp4RUZlbWNTWlVEbkh3XzE3MzY4MjY3NjE6MTczNjgzMDM2MV9WNA)​
+​![](assets/network-asset-asynccode-20250114174209-ycbumjl.png)​
 
-​![](https://kcno7cq8euks.feishu.cn/space/api/box/stream/download/asynccode/?code=ZDk1MGQ5Y2M3YmI0MzE4OTE4NGYzNTc3YTZiYzczZjFfbUxQdW9YNUNCbHA4Z1BheWtCdEtkTXp1ampzYm9RdXhfVG9rZW46WXJhVmJSUVdSb0pna1N4TFQxMWN3UElabnhiXzE3MzY4MjY3NjE6MTczNjgzMDM2MV9WNA)​
+​![](assets/network-asset-asynccode-20250114174209-qm5wtud.png)​
 
 使用了NetNTLMv2 协议 进行认证，尝试爆破sk用户的密码，可以参考2024强网杯的谍影重重
 
@@ -32,7 +32,7 @@ Eminem01
 
 制作keytab，可以参考[PTS2023-Talk-20-Decrypt_Kerberos_NTLM_with_Wireshark.pdf](https://archives.pass-the-salt.org/Pass%20the%20SALT/2023/slides/PTS2023-Talk-20-Decrypt_Kerberos_NTLM_with_Wireshark.pdf)
 
-​![](https://kcno7cq8euks.feishu.cn/space/api/box/stream/download/asynccode/?code=NjhlNGU0ZmJhNjQ3OTkwZjg4ODBjMTU3MmYwM2Q3ZDJfc0FIVlhTcjFEakF2YUtrQmJ3VjNKWjByUWRPNWtoNm1fVG9rZW46VU05VmJoaktyb0tEd014QmZBYmNQMDg2bnBjXzE3MzY4MjY3NjE6MTczNjgzMDM2MV9WNA)​
+​![](assets/network-asset-asynccode-20250114174209-kwwpon4.png)​
 
 ```Python
 from struct import unpack, pack
@@ -177,11 +177,11 @@ else:
         outfile.write(data)
 ```
 
-​![](https://kcno7cq8euks.feishu.cn/space/api/box/stream/download/asynccode/?code=NmI4ZjFjOWMwYTBhMTQwYjIxODZjMmI0ZDA4M2JmYzZfTjJaTGlvc2M2TERmUVpwQzA4d0JzQVFMZnY2RUN4NDNfVG9rZW46TlpyNmI2Wmlob2k4NWV4Y0xEOWNETU93bnpIXzE3MzY4MjY3NjE6MTczNjgzMDM2MV9WNA)​
+​![](assets/network-asset-asynccode-20250114174210-empc52w.png)​
 
 熟悉 DACL 滥用的师傅们都知道，这是个强制改密的操作，可以参考https://www.thehacker.recipes/ad/movement/dacl/forcechangepassword
 
-​![](https://kcno7cq8euks.feishu.cn/space/api/box/stream/download/asynccode/?code=YTdmODdkZTUwYWI2ZGQ5YzFjNzQxNzgyZWFmZTY0MGFfaHJJQk10NUw5d3JCV201V3FHYlhRdEVHWU5XemhDZkNfVG9rZW46S09oZ2JZNFR0b0pXZTZ4Z3FjcWN3Z2thbkdoXzE3MzY4MjY3NjE6MTczNjgzMDM2MV9WNA)​
+​![](assets/network-asset-asynccode-20250114174210-uws2lu2.png)​
 
 参考bloodyAD项目，其实就是替换了关键属性unicodePwd的值
 
@@ -189,11 +189,11 @@ PS：
 
 在 SharpADWS 项目中 不存在 强制改密的操作，我手动实现了一个
 
-​![](https://kcno7cq8euks.feishu.cn/space/api/box/stream/download/asynccode/?code=NTBmZWNmODI3NmYxNzExZGU4MmQwNjk0MWU1ZmJiMjRfYnFGdlc4ckdQSExhQlhpNE9mQTdSc2VKUU8zNnh4TWFfVG9rZW46S0FRamJudm0xb2ZTeFh4ZEpsVmNPMDEzbmNnXzE3MzY4MjY3NjE6MTczNjgzMDM2MV9WNA)​
+​![](assets/network-asset-asynccode-20250114174211-8xzadcq.png)​
 
 至此获得administrator 密码 1202)78M5CcE\=+!2
 
-​![](https://kcno7cq8euks.feishu.cn/space/api/box/stream/download/asynccode/?code=YTMzM2QxN2Y5YjA0YjRhODliZDQ1NzUzOTczZDA4NjlfcTdiQVNpcVd5dFdGNmFJQ29aTlpjWms0a0NkbEFEREpfVG9rZW46U05XcmJ4aFB5b3J3dFd4R1M2Q2N5Y0NsbnhmXzE3MzY4MjY3NjE6MTczNjgzMDM2MV9WNA)​
+​![](assets/network-asset-asynccode-20250114174211-vjlxmcd.png)​
 
 ## Psexec-kerbero
 
@@ -201,7 +201,7 @@ Impacket 我只能说伟大，无需多言！
 
 不过我这里的psexec 脚本产生的smb流量，都是通过kerberos 协议认证过的，建议参考 [微软官方文档](https://learn.microsoft.com/en-us/archive/blogs/openspecification/smb-2-and-smb-3-security-in-windows-10-the-anatomy-of-signing-and-cryptographic-keys) ，获知kerberos 和 ntlm 身份认证协议 在 smb3 协议上的不同
 
-​![](https://kcno7cq8euks.feishu.cn/space/api/box/stream/download/asynccode/?code=MzFiN2ZiYzRhZGMxYTQ1ZTVmNWVkYWIxYTIxYmE0OWFfUlBIYWJFOVdCOGEzRlZ4emNiTWR4YkFtQ0xPTUR3c2dfVG9rZW46UVJDTWJqcTVMbzM4Q014bDN0amNON0lablBmXzE3MzY4MjY3NjE6MTczNjgzMDM2MV9WNA)​
+​![](assets/network-asset-asynccode-20250114174212-d53mfdf.png)​
 
 继续制作keytab，用如下脚本生成administrator 用户 的 AES-256 密钥，主要参考[impacket脚本](https://github.com/fortra/impacket/blob/bfa7b939f8af47d4205531eddf0d5696be655d88/impacket/krb5/kerberosv5.py#L260)
 
@@ -224,19 +224,19 @@ if __name__ == '__main__':
     print(key.contents.hex())
 ```
 
-​![](https://kcno7cq8euks.feishu.cn/space/api/box/stream/download/asynccode/?code=NmJmZjkwNzhjNGY2YmE3YTExODAwNGI0ZWM4M2I2NWZfMmc1aFNOOWpkVVVoRWhHMDNFWUxMRnhGRjRNQzE4OXdfVG9rZW46WGptb2I1VVlTb09pMEl4MWZhTGN0dmxlbkhjXzE3MzY4MjY3NjE6MTczNjgzMDM2MV9WNA)​
+​![](assets/network-asset-asynccode-20250114174212-jrh8ozi.png)​
 
-​![](https://kcno7cq8euks.feishu.cn/space/api/box/stream/download/asynccode/?code=MmUxNjBiZDY3NTY1ODg5MjUxZTE4OTM0OTVjNDFlZTVfdlZYc01rN3k0VXdYNFY5SkQ5MkxKeTFoY01xZzdVVmhfVG9rZW46TzU4Z2JKN1h1b0FsR1p4Z1pGaWMzN2RsbkxiXzE3MzY4MjY3NjE6MTczNjgzMDM2MV9WNA)​
+​![](assets/network-asset-asynccode-20250114174213-z9s1g9k.png)​
 
 此时终于能看见ServiceSessionKey了，但wireshark 并没有实现kerbeeros 认证下的 smb 流量自动解密，需要手动添加解开
 
-​![](https://kcno7cq8euks.feishu.cn/space/api/box/stream/download/asynccode/?code=MjBiZTQxYzA2ZjY3ZjgxZmQ0ZjE3ZmZhZTc3MWY0MjFfbmRhYms3ZzZVWEVkYTg5UXR6NFZiVTJ0RUlycTFKWldfVG9rZW46UmVyRmI4ZFp5b21uTVd4U3laamNtVko3bmpoXzE3MzY4MjY3NjE6MTczNjgzMDM2MV9WNA)​
+​![](assets/network-asset-asynccode-20250114174213-2lbflfb.png)​
 
-​![](https://kcno7cq8euks.feishu.cn/space/api/box/stream/download/asynccode/?code=ZTBjMDRkNDE4YzBmMzdjMzM2N2VlOTgyNmJkYTAwNzJfOGQzd2FQYVlVbGlnbkJkaTBhVEtQaW5DWVlsaWJ5NVpfVG9rZW46TmNId2I4bnpSb29BWmp4WTNyUmM2ZjVubkdlXzE3MzY4MjY3NjE6MTczNjgzMDM2MV9WNA)​
+​![](assets/network-asset-asynccode-20250114174213-r6jb83c.png)​
 
-​![](https://kcno7cq8euks.feishu.cn/space/api/box/stream/download/asynccode/?code=ZDVhZGQxOWM1M2JlOTJiNWUyOTI4ZTZlNzY1NDcwZjZfS1JtM3ptMnU1VWN0SVJoSUdMekNvcFF0Z2xmaFRDNG9fVG9rZW46Sm9MaGJKU29hb3Btczd4NmFYS2NRczFqbnRjXzE3MzY4MjY3NjE6MTczNjgzMDM2MV9WNA)​
+​![](assets/network-asset-asynccode-20250114174214-fxlrukm.png)​
 
-​![](https://kcno7cq8euks.feishu.cn/space/api/box/stream/download/asynccode/?code=NTNhNWVmM2FhNWNhY2QwN2NhNmRhNzkxY2MwNWZhY2NfOHhiZWtUbDNBNlVHanhpWFJJNHN4YmxONkJUQkthdUlfVG9rZW46QTl2SWJ2YWd2b2FjUkF4REw1bGM1aGZDbktjXzE3MzY4MjY3NjE6MTczNjgzMDM2MV9WNA)​
+​![](assets/network-asset-asynccode-20250114174214-2u9k70o.png)​
 
 ## wmiexec-Pro
 
@@ -244,11 +244,11 @@ if __name__ == '__main__':
 
 这里分析它如何执行命令的，可以清晰看到是通过WMI 事件订阅远程执行VBS脚本，此时VBS 脚本还没有进行混淆t
 
-​![](https://kcno7cq8euks.feishu.cn/space/api/box/stream/download/asynccode/?code=Mzk5M2QwOWY2MGY4MWUwZDRiODA1NGYzYzMyY2E5NDdfRVBWcVNTR0k5T3Jaa0VOSmpxUzVpdWxxakNiUldTTFhfVG9rZW46WFZVNmJrWjJyb2FxazV4SzBzNmNwTXVkbkliXzE3MzY4MjY3NjE6MTczNjgzMDM2MV9WNA)​
+​![](assets/network-asset-asynccode-20250114174215-ke1csns.png)​
 
 通过generator 函数 进行 混淆
 
-​![](https://kcno7cq8euks.feishu.cn/space/api/box/stream/download/asynccode/?code=ZjhiOTE2NzAzYzliNjM3MWExYWU0ZjY1YWIxMmRjYzJfZHlkZDcxOXBMOGk0cThVR3J0Yk5XUFYzdUlXSDhXd3NfVG9rZW46U1NpSWJyMnl3b0txejJ4NFRZZmNyZGlWbjBjXzE3MzY4MjY3NjE6MTczNjgzMDM2MV9WNA)​
+​![](assets/network-asset-asynccode-20250114174215-wvlbn0u.png)​
 
 用如下脚本逆出vbs原脚本内容
 
@@ -270,16 +270,16 @@ for ovAMSOWhTVsIBXdbZCDgELLDJUWTVRN in tgCkvHzLfnluUjonbpHlONFeuZDEhZM:
 print(PFdUCUBuebAkdpolqLKtaWRPdRgMinr)
 ```
 
-​![](https://kcno7cq8euks.feishu.cn/space/api/box/stream/download/asynccode/?code=NjllMGRlZWEyOGRmOTE1MjA4NzAyZWEwMjNiNGFjNTBfd0tuYW9VdHd1Uk11blJvSHd6U1hqQklyNGhZa3h4ekJfVG9rZW46RnpPQmI1aE5Bb2VUc2V4ZlVEOWNGVFBIbjdkXzE3MzY4MjY3NjE6MTczNjgzMDM2MV9WNA)​
+​![](assets/network-asset-asynccode-20250114174216-g8a1kx7.png)​
 
-​![](https://kcno7cq8euks.feishu.cn/space/api/box/stream/download/asynccode/?code=ZTkzYTAwMzRlMmNmYjQ2OTZmM2VkNGEwNTk4YmUzMmNfZ0RhNlZ2Ukk0WHh4NzR3Q2Y4SVJoVUtkMVRBZEpjZlBfVG9rZW46RDRxWWJTNUJHb21iTFp4NGVMbGMxWFBhbmRkXzE3MzY4MjY3NjE6MTczNjgzMDM2MV9WNA)​
+​![](assets/network-asset-asynccode-20250114174216-vsy0vu4.png)​
 
 用之前制作好的keytab，就可以解密流量
 
-​![](https://kcno7cq8euks.feishu.cn/space/api/box/stream/download/asynccode/?code=ZmYxZWQwZTk1ZjZkODI0ZTFkOWJiZGEyNWZjMzI1NjJfU1pZZXZOODltc3l4TXNuNVhRSXAwZXJmSXZDWm5vWklfVG9rZW46WVdIV2JaYXpzbzhYdjV4OEUxc2M0c205bnBlXzE3MzY4MjY3NjE6MTczNjgzMDM2MV9WNA)​
+​![](assets/network-asset-asynccode-20250114174216-eu1nn4z.png)​
 
 获得密码解开压缩包即可获得FLAG
 
-​![](https://kcno7cq8euks.feishu.cn/space/api/box/stream/download/asynccode/?code=ZTliYjA3ZmUzZDAwOGJlZDQxYjA1Y2JkMjMyN2NjMThfTjJxZWltR0tBNVoyMUJWNkpRZHRuaEVzMW04NTlHRmpfVG9rZW46RU9BZmJFajhxb1JycXF4Y291bWNkRHFBbjFnXzE3MzY4MjY3NjE6MTczNjgzMDM2MV9WNA)​
+​![](assets/network-asset-asynccode-20250114174217-t6mp6sy.png)​
 
 最后感谢[@whoami](https://whoamianony.top/) 和 [@eson](https://eson.ninja/) 在我学习域渗透的时候给予的帮助

@@ -27,4 +27,6 @@ AAEAAAD/////AQAAAAAAAAAMAgAAAElTeXN0ZW0sIFZlcnNpb249NC4wLjAuMCwgQ3VsdHVyZT1uZXV0
    ]}}
 ```
 
-​![](https://kcno7cq8euks.feishu.cn/space/api/box/stream/download/asynccode/?code=ZjMxZWUwYjAyY2Y0ODlkN2FmZTk1N2MzOGI0NTZhNzNfQkp3MVhYOHhrdjd1QmhGM1NrNVN0cjZjSkUyMnF3SnVfVG9rZW46VWhqcWJpTzBHbzI5WUp4STNLUGNZRlpEblVjXzE3MzY4MjkwMjg6MTczNjgzMjYyOF9WNA)​
+​![](assets/network-asset-asynccode-20250114173710-je4vx7u.png)​
+
+‍
