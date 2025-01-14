@@ -1,0 +1,43 @@
+version: "3.3"
+
+services:
+  entrypoint:
+    container_name: entrypoint
+    image: chainflag/solidctf:main
+    volumes:
+      - ./flag.txt:/ctf/flag.txt
+      - ./contracts:/ctf/contracts
+      - ./challenge.yml:/ctf/challenge.yml
+      - ./brownie-config.yml:/ctf/brownie-config.yml
+    env_file:
+      - .env
+    ports:
+      - "10000:20000"
+    restart: unless-stopped
+
+  faucet:
+    container_name: faucet
+    image: chainflag/eth-faucet:1.1.0
+    env_file:
+      - .env
+    command: -wallet.provider http://rpc:8545 -wallet.privkey ${ALLOC_ADDRESS_PRIVATE_KEY} -faucet.minutes 1
+    links:
+      - rpc
+    depends_on:
+      - rpc
+    ports:
+      - "10001:8080"
+    restart: unless-stopped
+
+  rpc:
+    container_name: rpc
+    image: chainflag/fogeth:latest
+    volumes:
+      - ./data:/data
+      - ./logs:/var/log/nginx
+      - ./genesis.json.template:/genesis.json.template
+    env_file:
+      - .env
+    ports:
+      - "10002:8545"
+    restart: unless-stopped

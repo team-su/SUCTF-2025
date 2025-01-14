@@ -1,0 +1,106 @@
+<!--
+ * @Author: Nbc
+ * @Date: 2025-01-13 16:13:47
+ * @LastEditors: Nbc
+ * @LastEditTime: 2025-01-13 16:31:41
+ * @FilePath: \src\index.html
+ * @Description: 
+ * 
+ * Copyright (c) 2025 by Nbc, All Rights Reserved. 
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SU photogallery</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="icon" href="SU.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container">
+        <!-- 上传单个图片 -->
+        <div class="container_form container-image">
+            <form action="" method="post" class="form" id="form2">
+                <h1 class="form_title">Working...</h1>
+            </form>
+        </div>
+        <!-- 上传压缩包 -->
+        <div class="container_form container-zip">
+            <form action="unzip.php" method="POST" enctype="multipart/form-data" class="form" id="form2">
+                <h1 class="form_title">Upload zip</h1>
+                <input type="file" name="file" id="file" accept=".zip" required class="upload_zip">
+                <br><br>
+                <button type="submit" class="btn">Upload</button>
+            </form>
+        </div>  
+        <!-- 罩 -->
+        <div class="container_mask">
+            <div class="mask">
+
+                <div class="mask_cover mask-left">
+                    <button type="button" class="btn" id="image">上传图片</button>
+                </div>
+                <div class="mask_cover mask-right">
+                    <button type="button" class="btn" id="zip">批量上传</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script>
+        function getQueryParam(param) {
+        const urlParams = new URLSearchParams(window.location.search);
+        return urlParams.get(param);
+    }
+
+    const status = getQueryParam('status');
+
+    if (status) {
+        switch (status) {
+            case 'success':
+                alert('文件上传成功！');
+                break;
+            case 'zip_not_found':
+                alert('上传的文件不存在，请检查后重试！');
+                break;
+            case 'zip_open_failed':
+                alert('无法打开 ZIP 文件，请检查文件格式！');
+                break;
+            case 'malicious_content_detected':
+                alert('答应我，别这样！');
+                break;
+            case 'mkdir_failed':
+                alert('创建解压目录失败，请联系管理员！');
+                break;
+            case 'extract_failed':
+                alert('解压文件失败，别搞！');
+                break;
+            case 'move_failed':
+                alert('移动文件失败，请检查文件路径！');
+                break;
+            case 'file_error':
+                alert('文件上传失败，请重新尝试！');
+                break;
+            default:
+                alert('未知错误，请稍后重试！');
+        }
+    }
+        const loginBtn = document.getElementById("image");
+        const enrollBtn = document.getElementById("zip");
+        const fistForm = document.getElementById("form1");
+        const secondForm = document.getElementById("form2");
+        const container = document.querySelector(".container");
+        enrollBtn.addEventListener("click", () => {
+            container.classList.add("right-cover-active");
+        });
+        loginBtn.addEventListener("click", () => {
+            container.classList.remove("right-cover-active");
+        });
+    </script>
+</body>
+
+</html>

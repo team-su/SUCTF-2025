@@ -1,0 +1,2 @@
+Flask
+pydash==5.1.2

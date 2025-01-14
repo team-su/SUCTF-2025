@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: nfs-pv
+spec:
+  capacity:
+    storage: 500Mi
+  volumeMode: Filesystem
+  accessModes:
+    - ReadWriteOnce
+  persistentVolumeReclaimPolicy: Recycle
+  storageClassName: nfs-client
+  mountOptions:
+    - hard
+    - nfsvers=4
+  nfs:
+    path: /nfs-root/
+    server: 0c09048b03-got17.cn-hangzhou.nas.aliyuncs.com

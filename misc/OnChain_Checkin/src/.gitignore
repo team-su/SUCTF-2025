@@ -1,0 +1,5 @@
+.anchor
+.env
+.keypair
+node_modules
+target

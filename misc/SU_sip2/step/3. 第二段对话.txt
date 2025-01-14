@@ -1,0 +1,30 @@
+1老板：你好，王先生，感谢你今天能过来讨论我们的供货合同。
+Boss: Hello, Mr. Wang, thank you for coming to discuss our supply contract today.
+
+2供应商：您好，很高兴能再次合作。我们这次的报价和交货时间都做了一些调整，希望能更符合您的需求。
+Supplier: Hello, it's a pleasure to work together again. We've made some adjustments to our pricing and delivery schedule this time, hoping to better meet your needs.
+
+3老板：好的，我刚好在记录一些重要信息，请稍等……（开始在键盘上敲打）
+Boss: Okay, I'm just recording some important information, please hold on... 
+
+4供应商：当然，您请便。
+Supplier: Of course, please go ahead.
+
+
+按键58912598719870574
+
+
+5老板：（一边敲打键盘一边说）抱歉，我正在记录一组密码，您知道的，现在信息安全很重要。
+Boss: (while typing) Sorry, I'm recording a password, you know, information security is very important nowadays.
+
+6供应商：是的，安全问题不容忽视。
+Supplier: Yes, security issues cannot be ignored.
+
+7老板：我最近发现我原来的密码使用方法不太安全，现在我喜欢用记录的密码和常用密码组合起来，然后进行哈希运算作为我机密文件的密码，这样就更安全了。
+Boss: I recently discovered that my original way of using passwords wasn't very secure. Now I like to combine recorded passwords with common ones and then hash them to use as passwords for my confidential files, making it more secure.
+
+8供应商：这是个好主意，能有效提升安全性。
+Supplier: That's a good idea, it can effectively enhance security.
+
+9老板：没错，这样即使有人知道了其中一个密码，也无法轻易破解我的账户。
+Boss: Exactly, this way, even if someone knows one of the passwords, they can't easily crack my account.

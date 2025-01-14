@@ -1,0 +1,10 @@
+version: '2'
+services:
+ pwn_deploy_chroot:
+   image: pwn_deploy_chroot:latest
+   build: .
+   container_name: pwn_deploy_chroot
+   ports:
+    - 10000:10000
+    - 10001:10001
+    

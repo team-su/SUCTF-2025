@@ -1,0 +1,7 @@
+version: "3"
+services: 
+  pwn_taskdemo: 
+    build: .
+    image: jit16:latest
+    ports: 
+      - "19198:8888"

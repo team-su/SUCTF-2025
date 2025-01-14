@@ -1,0 +1,4 @@
+description: |
+  Your goal is to make the isSolved function return true.
+contract: MagicBox
+show_source: True
