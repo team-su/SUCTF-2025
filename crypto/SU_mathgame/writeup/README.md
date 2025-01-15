@@ -1,7 +1,7 @@
 Just a easy challenge. 
 For game1, you need find a big carmichael number. You can google and find that:
 
-![1](C:\Users\29741\Desktop\SUCTF-crypto\SU_mathgame\writeup\img\1.png)
+![1](img/1.png)
 
 So you can do this to get:
 
