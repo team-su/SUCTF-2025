@@ -19,7 +19,7 @@ Official Writeup of SUCTF 2025
 | misc    | SU_Checkin                | [./misc/SU_Checkin/writeup](./misc/SU_Checkin/writeup)       |
 | misc    | SU_forensics              | [./misc/SU_forensics/writeup](./misc/SU_forensics/writeup)   |
 | misc    | SU_HappyAST               | [./misc/SU_HappyAST/writeup](./misc/SU_HappyAST/writeup)     |
-| misc    | SU_sip2                   | [./misc/SU_sip2/writeup](./misc/SU_sip2/writeup)             |
+| misc    | SU_VOIP                   | [./misc/SU_VOIP/writeup](./misc/SU_VOIP/writeup)             |
 | pwn     | SU_baby                   | [./pwn/SU_baby/writeup](./pwn/SU_baby/writeup)               |
 | pwn     | SU_JIT16                  | [./pwn/SU_JIT16/writeup](./pwn/SU_JIT16/writeup)             |
 | pwn     | SU_msg_cfgd               | [./pwn/SU_msg_cfgd/writeup](./pwn/SU_msg_cfgd/writeup)       |
