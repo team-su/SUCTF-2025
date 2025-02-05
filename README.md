@@ -15,7 +15,9 @@ Official Writeup of SUCTF 2025
 | misc    | Onchain_Checkin           | [./misc/Onchain_Checkin/writeup](./misc/Onchain_Checkin/writeup) |
 | misc    | Onchain_Magician          | [./misc/Onchain_Magician/writeup](./misc/Onchain_Magician/writeup) |
 | misc    | SU_AD                     | [./misc/SU_AD/writeup](./misc/SU_AD/writeup)                 |
+| misc    | SU_AI_call_white_black    | [./misc/SU_AI_call_white_black/writeup](./misc/SU_AI_call_white_black/writeup) |
 | misc    | SU_AI_how_to_encrypt_plus | [./misc/SU_AI_how_to_encrypt_plus/writeup](./misc/SU_AI_how_to_encrypt_plus/writeup) |
+| misc    | SU_AI_segment_ceil        | [./misc/SU_AI_segment_ceil/writeup](./misc/SU_AI_segment_ceil/writeup) |
 | misc    | SU_Checkin                | [./misc/SU_Checkin/writeup](./misc/SU_Checkin/writeup)       |
 | misc    | SU_forensics              | [./misc/SU_forensics/writeup](./misc/SU_forensics/writeup)   |
 | misc    | SU_HappyAST               | [./misc/SU_HappyAST/writeup](./misc/SU_HappyAST/writeup)     |
@@ -34,5 +36,7 @@ Official Writeup of SUCTF 2025
 | web     | SU_DOTNET                 | [./web/SU_DOTNET/writeup](./web/SU_DOTNET/writeup)           |
 | web     | SU_easyk8s                | [./web/SU_easyk8s/writeup](./web/SU_easyk8s/writeup)         |
 | web     | SU_easyk8s_on_aliyun      | [./web/SU_easyk8s_on_aliyun/writeup](./web/SU_easyk8s_on_aliyun/writeup) |
+| web     | SU_ez_micronaut           | [./web/SU_ez_micronaut/writeup](./web/SU_ez_micronaut/writeup) |
+| web     | SU_ez_solon               | [./web/SU_ez_solon/writeup](./web/SU_ez_solon/writeup)       |
 | web     | SU_photogallery           | [./web/SU_photogallery/writeup](./web/SU_photogallery/writeup) |
 | web     | SU_POP                    | [./web/SU_POP/writeup](./web/SU_POP/writeup)                 |
