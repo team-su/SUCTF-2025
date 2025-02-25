@@ -1,0 +1,18 @@
+[toolchain]
+solana_version = "2.0.20"
+anchor_version = "0.30.1"
+
+[programs.devnet]
+checkin = "SUWsfWnuVp7cqPEMgndNdAou25h3SRXmKHzuRgaCZHU"
+
+[provider]
+cluster = "devnet"
+wallet = "./.keypair/deployer.json"
+
+[scripts]
+checkin = "yarn run ts-node scripts/checkin.ts"
+
+[features]
+resolution = true
+seeds = true
+skip-lint = false

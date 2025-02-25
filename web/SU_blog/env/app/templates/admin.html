@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>Admin Panel</h1>
+        <form method="POST" class="mt-4">
+            <div class="form-group">
+                <label for="jsonData">Enter JSON Data:</label>
+                <textarea class="form-control" id="jsonData" name="json_data" rows="5"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+        <h2 class="mt-4">Processed Data:</h2>
+        <pre>{{ user_data }}</pre>
+        <p class="mt-3"><a href="{{ url_for('index') }}" class="btn btn-secondary">Back to Home</a></p>
+    </div>
+</body>
+</html>

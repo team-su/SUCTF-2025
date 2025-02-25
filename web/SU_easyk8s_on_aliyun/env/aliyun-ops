@@ -1,0 +1,6 @@
+1. create Role oss-root (grant AliyunOSSReadOnly permission)
+2. Link ECS RAM Role
+3. create bucket 
+4. enable bucket versioning 
+5. upload flag and delete
+6. check in version changes

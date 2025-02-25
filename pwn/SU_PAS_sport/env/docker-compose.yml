@@ -1,0 +1,7 @@
+version: "3"
+services: 
+  pwn_taskdemo: 
+    build: .
+    image: pas_sport:latest
+    ports: 
+      - "11451:8888"

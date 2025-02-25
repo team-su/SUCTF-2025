@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  myblog:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: myblog
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./app:/var/www/html/myblog/app
+    environment:
+      - FLASK_ENV=development
+    restart: unless-stopped

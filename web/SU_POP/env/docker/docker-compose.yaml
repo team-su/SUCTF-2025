@@ -1,0 +1,7 @@
+version: "3"
+services:
+  web:
+    build: ../
+    # image: test
+    ports:
+      - "10021:80"

@@ -1,0 +1,29 @@
+<!-- templates/friendlinks.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>友链管理</title>
+</head>
+<body>
+    <h1>友链管理</h1>
+    <a href="{{ url_for('index') }}">返回首页</a>
+    <h2>现有友链</h2>
+    <ul>
+        {% for link in links %}
+        <li>
+            <a href="{{ link.url }}">{{ link.name }}</a>
+            <form action="{{ url_for('delete_friendlink', index=loop.index0) }}" method="post" style="display:inline;">
+                <button type="submit">删除</button>
+            </form>
+        </li>
+        {% endfor %}
+    </ul>
+    <h2>添加新友链</h2>
+    <form action="{{ url_for('add_friendlink') }}" method="post">
+        名称: <input type="text" name="name" required><br>
+        URL: <input type="text" name="url" required><br>
+        <button type="submit">添加</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,6 @@
+version: '3'
+services:
+  SU_text:
+    build: "."
+    ports:
+      - "10010:9999"

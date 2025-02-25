@@ -1,0 +1,7 @@
+compiler:
+  evm_version: "london"
+  solc:
+    version: "0.8.28"
+    optimizer:
+      enabled: true
+      runs: 200
